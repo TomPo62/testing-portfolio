@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   color: #95a1a7;
+  scroll-behavior: smooth;
 }
 
 main {
