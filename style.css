@@ -335,6 +335,9 @@ h1 {
   max-width: 100px;
   background: transparent;
 }
+.footer-container .footer-logo a{
+  background: transparent;
+}
 
 footer .copyright {
   width: 100%;
