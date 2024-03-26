@@ -343,6 +343,10 @@ h1 {
   background: transparent;
 }
 
+.footer-container .footer-logo a{
+  background: transparent;
+}
+
 footer .copyright {
   width: 100%;
   text-align: center;
