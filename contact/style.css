@@ -213,7 +213,8 @@ h1 {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  min-height: 92.5vh;
+
 }
 
 .container::before {
@@ -277,11 +278,9 @@ h1 {
   justify-content: center;
   gap: 60px;
   padding: 10px;
-  top: 100px;
-  z-index: 2;
   max-width: 100%;
   background: transparent;
-  position: relative;
+  z-index: 2;
 }
 
 .cards {
@@ -315,7 +314,9 @@ h1 {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-
+footer{
+  height: auto;
+}
 .footer-container {
   max-width: 100%;
   background-color: #123456;
@@ -404,6 +405,8 @@ footer .copyright span {
 }
 
 @media (min-width: 1080px) {
+
+
   .cards-container {
     gap: 200px;
   }
@@ -414,12 +417,15 @@ footer .copyright span {
 }
 
 @media (max-width: 768px) {
-  /* .container {
-    height: 100vh;
-  } */
-  footer {
-    padding-bottom: 75px;
-  }
+.normal-navbar{
+  display: none;
+}
+
+.footer-container{
+  padding-bottom: 75px;
+}
+
+
 
   .footer-container .footer-logo img {
     display: none;
@@ -490,7 +496,7 @@ footer .copyright span {
   }
 
   .cards-container {
-    top: 30px;
+    top: 0;
     gap: 35px;
   }
 
@@ -508,6 +514,7 @@ footer .copyright span {
   .cards-logo {
     max-height: 90px;
   }
+
 }
 
 @media (max-width: 415px) {
@@ -536,9 +543,12 @@ footer .copyright span {
   }
 
   .cards-container {
-    top: 15px;
     padding: 5px;
     gap: 35px;
+  }
+
+  .container{
+    min-height: auto;
   }
 
   .content-block-two p {
