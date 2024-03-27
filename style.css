@@ -1,11 +1,15 @@
 * {
   background-color: #3e5971;
   color: #95a1a7;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+.title-police{
+  font-family: 'Ubuntu', sans-serif;
 }
 
 main {
@@ -415,11 +419,8 @@ footer .copyright span {
   }
 
   .my-photo {
-    width: auto;
-    height: auto;
     max-width: 210px;
-    border-radius: 45%;
-    margin-top: 25px;
+    margin-top: 0;
   }
 
   .short-presentation-container {
